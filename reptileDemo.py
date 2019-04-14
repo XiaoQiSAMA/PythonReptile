@@ -25,4 +25,7 @@ def getHtmlText(url):
 if __name__ == "__main__":
     url = "http://www.baidu.com"
     print(getHtmlText(url))
-    
+
+
+#requests.request(method, url, **kwargs)
+#**KWARGS: 控制访问的参数，均为可选项
