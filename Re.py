@@ -8,3 +8,6 @@ re.spilt()              将字符串按照正则表达式匹配结果分割。�
 re.finditer()           搜索字符串，返回匹配的迭代类型，每个都是match对象
 re.sub()                替换所有匹配正则表达式的子串，返回替换后的字符串
 """
+
+m = re.search(r'PY.*N', 'PYANBNCNDN')
+print(m.group(0))
